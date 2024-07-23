@@ -14,7 +14,7 @@ export default function IntroductionSection() {
             </div>
             <button>Contact Me</button>
         </div>
-        <img src='/images/Intro.svg'/>
+        <img src='./images/Intro.svg'/>
     </div>
   )
 }
