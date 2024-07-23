@@ -36,7 +36,7 @@ export default function About() {
                     transition={{duration:1, delay:0.2, type:'tween'}}>
                     <div className='about-section'>
                         <h1>About</h1>
-                        <p class='about'>I am a recent graduate from the 
+                        <p className='about'>I am a recent graduate from the 
                             Faculty of Computer and Information
                             Science at Ain Shams University with
                             a <span style={{color:'#fec86b'}}>CGPA=3.69</span>

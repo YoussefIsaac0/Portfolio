@@ -74,8 +74,8 @@ export default function Skills() {
         <h1 style={{}}>My Skills</h1>
         <div className='skillsContainer'>
             {
-                skills.map(skill =>(
-                    <Skill name={skill.name} imgPath={skill.imgPath}/>
+                skills.map((skill,key) =>(
+                    <Skill name={skill.name} imgPath={skill.imgPath} key ={key}/>
                 ))
             }
         </div>

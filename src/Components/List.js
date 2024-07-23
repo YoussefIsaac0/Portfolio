@@ -13,7 +13,7 @@ export default function List(props) {
             {
             item.body!=null &&
             item.body.map((element,indx)=>(
-              <p className='about'>{element}</p>
+              <p className='about' key ={indx}>{element}</p>
             ))
             }
             
