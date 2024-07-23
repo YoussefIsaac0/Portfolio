@@ -4,7 +4,7 @@ import Skill from './Skill'
 export default function Skills() {
     const[skills,setSkills] = useState([
         {
-            name: 'Pyttthon',
+            name: 'Python',
             imgPath: './images/Python.svg'
         },
         {
@@ -29,7 +29,7 @@ export default function Skills() {
         },
         {
             name: 'HTML & CSS',
-            imgPath: './images/HTML.svg'
+            imgPath: './images/HTMl.svg'
         },
         {
             name: 'MongoDb',

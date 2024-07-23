@@ -1,7 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
-  "homepage": "https://YoussefIsaac0.github.io/portofolio",
+  "homepage": "https://YoussefIsaac0.github.io/Portofolio",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

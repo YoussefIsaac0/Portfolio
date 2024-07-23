@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function IntroductionSection() {
   return (
-    <div className='container' id='firstContainer'>
+    <div className='container' id='firstContainer' style={{rowGap:"70px"}}>
         <div id="speech-container">
             <div className='speech'>
                 <label>Hi There <span>👋</span></label>

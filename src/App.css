@@ -199,9 +199,8 @@ hr{
   height:200px;
   border-radius: 10px;
   transition: 0.1s ease-in;
-
-
 }
+
 .skill:hover{
   background-color: #fec86b;
   color:#282c34;
@@ -218,7 +217,8 @@ hr{
 .skill label{
   font-size: 20px;
   font-weight: 700;
-  padding:10px
+  padding:10px;
+  text-align: center;
 }
 @keyframes bulletShine {
   0%{
@@ -249,36 +249,43 @@ hr{
     flex-direction: column;
   }
   .container img{
-    width:20vw;
+    width:30vw;
   }
   .speech{
-    font-size: 5vw;
+    font-size: 7vw;
+  }
+  .speech span{
+    font-size: 30px;
   }
   #name{
-    font-size:6vw
+    font-size:8vw
   }
 
   /*About Section*/
   h1{
-    font-size: larger;
+    font-size: x-large;
   }
   h3{
     font-size: medium;
   }
   .about{
-    font-size: 3vw;
+    font-size: large;
   }
   #aboutPicture{
     display: none;
   }
 
   /*Skill Section*/
+  .skillsContainer{
+    gap:15px;
+    padding: 25px;
+  }
   .skill{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
   }
   .skill img{
-    width:50px
+    width:35px
   }
   .skill label{
     font-size: 15px;

@@ -73,7 +73,7 @@ export default function About() {
                     whileInView={{ opacity: 1, left:'0px', top:'0px'}}
                     transition={{duration:1, delay:0.2, type:'tween'}}
                     style={{ maxWidth:'fit-content'}}>
-                <img src="/images/education.png" alt="EducationSection" id='aboutPicture'/>
+                <img src="./images/education.png" alt="EducationSection" id='aboutPicture'/>
             </motion.div>
         </div>
     
