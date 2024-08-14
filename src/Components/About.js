@@ -10,7 +10,7 @@ export default function About() {
             title:"Faculty of Computer and Information Science, Ain Shams University",
             year:"(Oct 2020 - Jun 2024)",
             body: [
-                "Scientific Computing Department, CGPA: 3.69, Graduation Project: A",
+                "Scientific Computing Department, CGPA: 3.7, Graduation Project: A",
             ]
         }
     ])
