@@ -1,8 +1,12 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth;
+
   
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -71,7 +75,7 @@
   justify-content: center;
   gap: 20px;
 }
-#speech-container button{
+#speech-container a{
   padding:10px;
   font-size: x-large;
   font-weight:bold;
@@ -80,10 +84,11 @@
   border: 4px solid #ffc86b;
   color: whitesmoke;
   cursor: pointer;
+  text-decoration: none;
   
 }
 
-#speech-container button:hover{
+#speech-container a:hover{
   background-color: #ffc86b;
   color:black;
   transition: 0.1s ease-in;
@@ -315,7 +320,7 @@ footer{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap:20px;
+  gap:15px;
 }
 .comIcons a{
   padding:6px;

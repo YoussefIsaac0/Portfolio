@@ -12,7 +12,7 @@ export default function IntroductionSection() {
                 <label>Computer Science Fresh Graduate <br/> & A Full-Stack Developer</label>
                 
             </div>
-            <button>Contact Me</button>
+            <a href='#communicationContainer'>Contact Me</a>
         </div>
         <img src='./images/Intro.svg'/>
     </div>
