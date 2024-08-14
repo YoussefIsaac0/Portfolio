@@ -278,6 +278,90 @@ hr{
 
 }
 
+/*Communication Secion*/
+#communicationContainer{
+  height: 80vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+  text-align: center;
+  position:relative;
+}
+#invWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap:30px;
+  margin-top: 100px;
+}
+/*footer*/
+footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  min-width: 80vw;
+  justify-self:end;
+  gap:20px;
+  position:absolute;
+  bottom:30px
+  
+}
+.comIcons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
+.comIcons a{
+  padding:6px;
+  border:1px solid white;
+  border-radius: 5px;
+}
+#Invitation{
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+#communicationContainer p{
+  font-size: medium;
+}
+#email{
+  padding:15px 40px 15px 40px;
+  text-decoration: none;
+  color:white;
+  font-size: large;
+  background-color: #3d3e42;
+  border-radius: 10px;
+  position:relative;
+  transition: 0.1s ease-in;
+}
+#email::before, #email::after{
+  content:'';
+  position:absolute;
+  z-index:-2;
+  height:100%;
+  width:100%;
+  background-image: conic-gradient(from var(--angle),transparent 50%,#fec86b);
+  top:50%;
+  left:50%;
+  translate: -50% -50%;
+  padding:2px;
+  border-radius: 10px;
+  animation: 5s spin linear infinite;
+  transition: 0.2s ease-in-out;
+
+}
+#email:hover{
+  box-shadow: 0px 0px 50px burlywood;
+}
+#email:hover::after, #email:hover::before{
+  padding:0;
+}
 @keyframes spin {
   from{
     --angle:0deg;
@@ -333,7 +417,6 @@ hr{
     font-size:8vw
   }
   
-
   /*About Section*/
   h1{
     font-size: x-large;
@@ -370,5 +453,19 @@ hr{
     top:0;
     font-size: small;
   }
+
+  /*contact*/
+  footer{
+    flex-direction: column;
+  }
+  .comIcons{
+    bottom:5px
+  }
+  #Invitation{
+    font-size: 2rem;
+    font-weight: bold;
+  
+  }
+  
 
 }
