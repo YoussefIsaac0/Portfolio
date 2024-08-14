@@ -59,8 +59,8 @@ html{
   color:whitesmoke;
 }
 .container img{
-  width:20%;
-  animation: logo-flowing ease-in-out 2s infinite;
+  width:40%;
+  /*animation: logo-flowing ease-in-out 2s infinite;*/
   /*filter: drop-shadow(2px 2px 5px #ffc86b);*/
 }
 .speech span{
@@ -442,7 +442,7 @@ footer{
     flex-direction: column;
   }
   .container img{
-    width:30vw;
+    width:60vw;
   }
   .speech{
     font-size: 7vw;
