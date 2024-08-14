@@ -41,6 +41,22 @@ html{
     transform: rotate(360deg);
   }
 }
+
+#loading{
+  min-width: 50px;
+  min-height: 50px;
+  border: 3.5px dotted #ffc86b;
+  border-radius: 100%;
+  animation: rotation 7s infinite linear;
+}
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
  /*First Section Styling*/
  
 .container{

@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-export default function IntroductionSection() {
+export default function IntroductionSection(props) {
+  const handleImageLoad = () => {
+    props.loading(true)
+  };
+
   return (
     <div className='container' id='firstContainer' style={{rowGap:"70px"}}>
         <div id="speech-container">
@@ -14,7 +18,7 @@ export default function IntroductionSection() {
             </div>
             <a href='#communicationContainer'>Contact Me</a>
         </div>
-        <img src='./images/myLogo.svg'/>
+        <img src='./images/myLogo.svg' onLoad={handleImageLoad} onError={handleImageLoad}/>
     </div>
   )
 }

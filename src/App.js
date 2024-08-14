@@ -1,18 +1,28 @@
+import { useState } from 'react';
 import './App.css';
 import About from './Components/About';
 import Communication from './Components/Communication';
 import IntroductionSection from './Components/IntroductionSection';
+import Loading from './Components/Loading';
 import SecondaryInformation from './Components/SecondaryInformation';
 import Skills from './Components/Skills';
 
 function App() {
+  const [loading, setLoading] = useState(false)
+  let handleLoading = (val)=>{
+    setLoading(val)
+  }
   return (
-    <div>
-      <IntroductionSection/>
-      <About/>
-      <Skills/>
-      <Communication/>
-    </div>
+    <>
+      {loading ? <Loading/> :
+      <div>
+        <IntroductionSection loading={handleLoading}/>
+        <About/>
+        <Skills/>
+        <Communication/>
+      </div>
+      }
+    </>
   )
 }
 
