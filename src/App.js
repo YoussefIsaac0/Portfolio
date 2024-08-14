@@ -7,7 +7,8 @@ import Loading from './Components/Loading';
 import SecondaryInformation from './Components/SecondaryInformation';
 import Skills from './Components/Skills';
 import { delay, motion } from "framer-motion";
-
+import Options from './Components/Options';
+import useDetectScroll, { Direction } from "@smakss/react-scroll-direction";
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -22,7 +23,7 @@ function App() {
       initial={{ opacity: 0}}
       whileInView={{ opacity: 1}}
       transition={{duration:1, delay:0.2, type:'tween'}}>
-      
+        <Options/>
         <IntroductionSection loading={handleLoading}/>
         <About/>
         <Skills/>
