@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <>
-      {loading ? <Loading/> :
+      {loading ? <Loading component={<IntroductionSection loading={handleLoading}/>}/> :
       <div>
         <IntroductionSection loading={handleLoading}/>
         <About/>
