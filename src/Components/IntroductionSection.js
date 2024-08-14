@@ -14,7 +14,7 @@ export default function IntroductionSection() {
             </div>
             <a href='#communicationContainer'>Contact Me</a>
         </div>
-        <img src='./images/Intro.svg'/>
+        <img src='./images/myLogo.jpg'/>
     </div>
   )
 }
