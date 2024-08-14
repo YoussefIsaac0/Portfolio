@@ -293,6 +293,7 @@ hr{
   gap:30px;
   text-align: center;
   position:relative;
+  transition: 0.1s ease-in;
 }
 #invWrapper{
   display: flex;
@@ -302,12 +303,18 @@ hr{
   gap:30px;
   margin-top: 100px;
 }
+#paperPlane{
+  position: relative;
+  transition: 0.1s ease-in;
+
+}
+
 /*footer*/
 footer{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: space-between;
+  align-items: center;
   min-width: 80vw;
   justify-self:end;
   gap:20px;
@@ -331,7 +338,7 @@ footer{
   justify-content: center;
   background-color: white;
 }
-.comIcons a img{
+#communicationContainer img{
   width: 24px;
   height:24px;
   min-height: 24px;;
@@ -354,6 +361,11 @@ footer{
   border-radius: 10px;
   position:relative;
   transition: 0.1s ease-in;
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 #email::before, #email::after{
   content:'';
@@ -373,6 +385,10 @@ footer{
 }
 #email:hover{
   box-shadow: 0px 0px 50px burlywood;
+
+}
+#email:hover #paperPlane{
+  left:10px;
 }
 #email:hover::after, #email:hover::before{
   padding:0;

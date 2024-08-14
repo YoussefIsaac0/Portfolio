@@ -6,7 +6,7 @@ export default function Communication() {
         <label id="Invitation">Ready to take <span style={{color:"#ffc86b"}}>your</span> digital<br/> presence to the next level?</label>
         <p>Reach out to me today and let's discuss how I can help you achieve your goals</p>
         <a href='mailto:youssefisaac002@gmail.com' target="_blank" id='email'>Let's get in touch 
-        <i className="fa-solid fa-paper-plane"/>
+        <img src="./images/paperplane.svg" alt="paperplane" id='paperPlane' />
         </a>
     <footer>
         <label>Cobyright © 2024 Youssef Isaac</label>
