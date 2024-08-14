@@ -6,6 +6,8 @@ import IntroductionSection from './Components/IntroductionSection';
 import Loading from './Components/Loading';
 import SecondaryInformation from './Components/SecondaryInformation';
 import Skills from './Components/Skills';
+import { delay, motion } from "framer-motion";
+
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -15,12 +17,17 @@ function App() {
   return (
     <>
       {loading ? <Loading component={<IntroductionSection loading={handleLoading}/>}/> :
-      <div>
+      <motion.div
+      viewport={{ once: true }}
+      initial={{ opacity: 0}}
+      whileInView={{ opacity: 1}}
+      transition={{duration:1, delay:0.2, type:'tween'}}>
+      
         <IntroductionSection loading={handleLoading}/>
         <About/>
         <Skills/>
         <Communication/>
-      </div>
+      </motion.div>
       }
     </>
   )
