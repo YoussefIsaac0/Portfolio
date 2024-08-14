@@ -8,7 +8,7 @@ import SecondaryInformation from './Components/SecondaryInformation';
 import Skills from './Components/Skills';
 
 function App() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
   let handleLoading = (val)=>{
     setLoading(val)
   }

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 export default function IntroductionSection(props) {
   const handleImageLoad = () => {
-    props.loading(true)
+    props.loading(false)
   };
 
   return (
