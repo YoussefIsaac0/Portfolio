@@ -41,7 +41,7 @@ export default function About() {
                         <p className='about'>I am a recent graduate from the 
                             Faculty of Computer and Information
                             Science at Ain Shams University with
-                            a <span style={{color:'#fec86b'}}>CGPA=3.69</span>
+                            a <span style={{color:'#fec86b'}}>CGPA=3.7</span>
                             , focusing on backend /
                             Full-Stack development.
                             With a passion for programming
