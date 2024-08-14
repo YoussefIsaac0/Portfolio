@@ -71,7 +71,7 @@ export default function Skills() {
     ])
   return (
     <div className='container' style={{flexDirection:'column', alignItems:'center'}}>
-        <h1 style={{}}>My Skills</h1>
+        <h1 style={{marginTop:"50px"}}>My Skills</h1>
         <div className='skillsContainer'>
             {
                 skills.map((skill,key) =>(

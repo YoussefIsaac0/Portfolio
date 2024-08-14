@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { delay, motion } from "framer-motion";
 import List from './List';
+import SecondaryInformation from './SecondaryInformation';
 
 export default function About() {
 
@@ -28,6 +29,7 @@ export default function About() {
     ])
 
     return (
+        <>
         <div className='container' id='about'>
             <div style={{  }}>
                 <motion.div
@@ -75,7 +77,10 @@ export default function About() {
                     style={{ maxWidth:'fit-content'}}>
                 <img src="./images/education.png" alt="EducationSection" id='aboutPicture'/>
             </motion.div>
+           
+
         </div>
-    
+        <SecondaryInformation/>
+        </>
     )
 }
