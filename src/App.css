@@ -459,7 +459,6 @@ footer{
   }
   .container img{
     width:75vw;
-    transform: translateY(-20px);
   }
   .speech{
     font-size: 7vw;
