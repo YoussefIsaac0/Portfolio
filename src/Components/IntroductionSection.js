@@ -16,7 +16,11 @@ export default function IntroductionSection(props) {
                 <label>Computer Science Fresh Graduate <br/> & A Full-Stack Developer</label>
                 
             </div>
+            <div style={{display:"flex", flexDirection:"row", gap:"10px"}}>
             <a href='#communicationContainer'>Contact Me</a>
+            <a href='./images/Youssef_Isaac.pdf' download style={{backgroundColor:'#fec86b', color:"black"}}>Download CV</a>
+            </div>
+            
         </div>
         <img src='./images/myLogo.svg' onLoad={handleImageLoad} onError={handleImageLoad}/>
     </div>

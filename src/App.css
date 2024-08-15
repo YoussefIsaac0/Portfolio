@@ -484,6 +484,9 @@ footer{
     flex-direction: column;
     top:0
   }
+  #speech-container a {
+    font-size: larger;
+  }
 
 }
 @media(max-width:600px){

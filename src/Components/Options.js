@@ -15,13 +15,12 @@ export default function Options() {
             if(scrollDir==Direction.Up){
                 setTimeout(()=>{
                     setTranslate('translateY(-100px)')
-                },3000)
+                },6000)
             }
                 
             
         }, 100);
       }, [scrollDir,scrollPosition]);
-    console.log(scrollPosition)
   return (
     
     
