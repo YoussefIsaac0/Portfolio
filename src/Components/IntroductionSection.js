@@ -22,7 +22,7 @@ export default function IntroductionSection(props) {
             </div>
             
         </div>
-        <img src='./images/myLogo.svg' onLoad={handleImageLoad} onError={handleImageLoad}/>
+        <img src='./images/myLogo.png' onLoad={handleImageLoad} onError={handleImageLoad}/>
     </div>
   )
 }

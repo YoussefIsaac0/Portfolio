@@ -5,19 +5,21 @@ import { delay, motion } from "framer-motion";
 export default function Options() {
     const { scrollDir, scrollPosition } = useDetectScroll();
     const [translate,setTranslate]=useState('translateY(-10px)')
-    
-    // const [direction,setDirection] = useState()
+    const[once,setOnce] =useState(true);
     useEffect(() => {
         setTimeout(() => {
             
-            
             setTranslate(scrollDir==Direction.Up?'translateY(-10px)':'translateY(-100px)')
-            if(scrollDir==Direction.Up){
+            if(scrollDir==Direction.Up && once==true){
+                setOnce(false);
                 setTimeout(()=>{
-                    setTranslate('translateY(-100px)')
+                    if(scrollDir == Direction.Up){
+                        setTranslate('translateY(-100px)')
+                    }
+                    setOnce(true)
                 },6000)
-            }
                 
+            }
             
         }, 100);
       }, [scrollDir,scrollPosition]);
