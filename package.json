@@ -1,7 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
-  "homepage": "https://YoussefIsaac0.github.io/Portofolio",
+  "homepage": "https://YoussefIsaac0.github.io/Portfolio",
   "private": false,
   "dependencies": {
     "@smakss/react-scroll-direction": "^4.2.0",
